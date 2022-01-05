@@ -50,7 +50,7 @@ navigation bar container */
 }
 
 body{
-	background-image: url("images/God_First.jpg");
+	background-image: url("/images/God_First.jpg");
 	background-color:darkgrey;
 	background-position: top;
 	background-repeat: no-repeat;
