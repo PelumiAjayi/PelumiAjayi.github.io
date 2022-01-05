@@ -1,0 +1,89 @@
+.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+	background-color: blue;
+	text-align: center;
+	padding: 20px;
+	font: sans-serif;
+}
+
+/* All the topnav stuff is for the website layout design
+navigation bar container */
+.topnav{
+	overflow: hidden;
+	background-color: black;
+}
+
+/* Box holding the content of the navigation bar*/
+.topnav-content{
+	display:none;
+	position:absolute;
+	background-color:powderblue;
+	min-width:75%;
+	box-shadow:0px 10px 8px rgba(0,0,0,0.2);
+	z-index:1;
+}
+
+/*links in the navigation bar*/
+.topnav a {
+	font:sans-serif;
+	position: relative;
+	font-size:100%;
+	color: white;
+	text-align: left;
+	font-weight:bold;
+	padding: 20px 10px; /* y,x*/
+	text-decoration: none;
+}
+
+/*links changing color on hover*/
+.topnav a: hover{
+	background-color: steelblue;
+	color: white;
+}
+
+/*Navigation bar items with external links */
+.topnav-ext{
+	position:relative;
+}
+
+body{
+	background-image: url("file:///C:/Users/ajayios/Box/Projects/Webpage/Website 2/Images/God_First.jpg");
+	background-color:darkgrey;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+}
+
+h1{
+	background-color: steelblue;
+	text-align: center;
+	padding: none;
+	font: Arial;
+}
+
+a{
+	font:sans-serif;
+}
+/*
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+
+}
+
+li {
+	float:left;
+}
+
+li a{
+	display: block;
+	text-align: left;
+	padding: 14px 16px; /* y, x *//*
+	
+	}
+*/
